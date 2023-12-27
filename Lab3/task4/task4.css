@@ -1,0 +1,30 @@
+/* Element Selector */
+h1 {
+    color: blue;
+}
+
+/* Class Selector */
+.subtitle {
+    color: green;
+}
+
+/* ID Selector */
+#special-div {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+/* Child Selector */
+#special-div > p {
+    color: orange;
+}
+
+/* Descendant Selector */
+.container .highlight {
+    background-color: yellow;
+}
+
+/* Grouping  */
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}

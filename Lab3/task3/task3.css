@@ -1,0 +1,59 @@
+body {
+    font-family: fantasy, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.demo {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Stretched Background */
+body.stretch {
+    color: red;
+    background-image: url("img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Repeat Horizontally */
+.demo.repeat-x {
+     color: red;
+     background-image: url('img.png');
+     background-repeat: repeat-x;
+ }
+
+/* Repeat Vertically */
+.demo.repeat-y {
+    color: red;
+    background-image: url('img.png');
+    background-repeat: repeat-y;
+}
+
+/* No Repeat */
+.demo.no-repeat {
+    color: red;
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+}
+
+/* Position */
+.demo.position {
+    color: red;
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Repeated to half page height */
+.demo.constraint {
+    color: red;
+    background-image: url('img.png');
+    background-repeat: repeat;
+    background-size: auto 20vh;
+}

@@ -1,0 +1,14 @@
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\bin\Debug\net7.0\task 1.exe
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\bin\Debug\net7.0\task 1.deps.json
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\bin\Debug\net7.0\task 1.runtimeconfig.json
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\bin\Debug\net7.0\task 1.dll
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\bin\Debug\net7.0\task 1.pdb
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.GeneratedMSBuildEditorConfig.editorconfig
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.AssemblyInfoInputs.cache
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.AssemblyInfo.cs
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.csproj.CoreCompileInputs.cache
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.dll
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\refint\task 1.dll
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.pdb
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\task 1.genruntimeconfig.cache
+E:\JetBrains Rider 2023.2.3\Projects\lab5\task 1\obj\Debug\net7.0\ref\task 1.dll

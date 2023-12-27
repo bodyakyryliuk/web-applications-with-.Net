@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @Html.Partial("_CreateArticle", new lab9.DTO.ArticleDto())
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "Articles")" class="btn btn-primary">View All Articles</a>
+</div>

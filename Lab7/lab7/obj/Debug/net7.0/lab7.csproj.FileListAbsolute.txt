@@ -1,0 +1,14 @@
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\bin\Debug\net7.0\lab7.exe
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\bin\Debug\net7.0\lab7.deps.json
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\bin\Debug\net7.0\lab7.runtimeconfig.json
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\bin\Debug\net7.0\lab7.dll
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\bin\Debug\net7.0\lab7.pdb
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.AssemblyInfoInputs.cache
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.AssemblyInfo.cs
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.csproj.CoreCompileInputs.cache
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.dll
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\refint\lab7.dll
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.pdb
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\lab7.genruntimeconfig.cache
+E:\JetBrains Rider 2023.2.3\Projects\lab7\lab7\obj\Debug\net7.0\ref\lab7.dll

@@ -1,0 +1,17 @@
+@model lab9.Models.Article
+
+@{
+    ViewBag.Title = "Article Details";
+    Layout = "_Layout";  
+}
+<link rel="stylesheet" href="~/css/article-details.css">
+
+<h2>Article Details</h2>
+
+<div>
+    <p>Model.Name</p>
+    <p>Id: @Model.Id</p>
+    <p>Category: @Model.Category</p>
+    <p>Expiration Date: @Model.ExpirationDate.ToShortDateString()</p>
+    <p>Description: @Model.Description</p>
+</div>

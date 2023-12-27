@@ -1,0 +1,52 @@
+@model IEnumerable<lab9.Models.Article>
+
+@{
+    ViewBag.Title = "Articles Index";
+    Layout = "_Layout"; 
+}
+<link rel="stylesheet" href="~/css/index.css">
+
+<h2>Articles</h2>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Expiration Date</th>
+        <th>View Description</th>
+        <th>Delete Action</th>
+        <th>Edit Action</th>
+    </tr>
+    @foreach (var article in Model)
+    {
+        <tr>
+            <td>@article.Id</td>
+            <td>@article.Name</td>
+            <td>@article.Category</td>
+            <td>@article.ExpirationDate.ToShortDateString()</td>
+            <td>
+                @using (Html.BeginForm("Details", "Articles", new { id = article.Id }, FormMethod.Get))
+                {
+                    <input type="submit" value="Description" />
+                }
+            </td>
+            <td>
+                @using (Html.BeginForm("Delete", "Articles", new { id = article.Id }, FormMethod.Post))
+                {
+                    <input type="submit" value="Delete" class="btn btn-danger" 
+                           onclick="return confirm('Are you sure you want to delete this?');" />
+                }
+            </td>
+            <td>
+                @using (Html.BeginForm("Edit", "Articles", new { id = article.Id }, FormMethod.Post))
+                {
+                    <input type="submit" value="Edit" class="btn btn-danger" />
+                }            
+            </td>
+        </tr>
+    }
+</table>
+@section NamedSection {
+    <h3>This is named section</h3>
+}

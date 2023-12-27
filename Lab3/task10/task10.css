@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Configure unordered list*/
+.menu ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+/* Configure items of a list */
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+/* Configure link visual properties */
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Change color of an item after hovering over a link */
+.menu li a:hover {
+    background-color: #555;
+}
+
+/* Configure submenu items */
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #666;
+}
+
+/* Configure submenu direction (block - vertical, flex - horizontal) */
+.menu li:hover ul {
+    display: block;
+}
+
+/* Set width of items of sublist*/
+.menu li ul li {
+    width: 160px;
+}
+
+/* Set color for sub items when hovering over a link*/
+.menu li ul li a:hover {
+    background-color: #888;
+}

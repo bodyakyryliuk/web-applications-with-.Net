@@ -1,0 +1,42 @@
+@model lab9.Models.Article
+
+@{
+    ViewBag.Title = "Edit Article";
+}
+
+<h2>Edit Article</h2>
+
+@using (Html.BeginForm("Edit", "Articles", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id)
+
+    <div>
+        @Html.DisplayText()
+        @Html.LabelFor(model => model.Name)
+        @Html.EditorFor(model => model.Name)
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Category)
+        @Html.EditorFor(model => model.Category)
+        @Html.ValidationMessageFor(model => model.Category)
+    </div>
+
+    
+    <div>
+        @Html.LabelFor(model => model.Description)
+        @Html.EditorFor(model => model.Description)
+        @Html.ValidationMessageFor(model => model.Description)
+    </div>
+    
+    <div>
+        @Html.LabelFor(model => model.ExpirationDate)
+        @Html.EditorFor(model => model.ExpirationDate)
+        @Html.ValidationMessageFor(model => model.ExpirationDate)
+    </div>
+
+    <input type="submit" value="Save Changes" />
+}

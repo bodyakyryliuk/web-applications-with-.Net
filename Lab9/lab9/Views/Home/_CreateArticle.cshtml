@@ -1,0 +1,39 @@
+@model lab9.DTO.ArticleDto
+
+@{
+    ViewBag.Title = "Create Article";
+}
+<link rel="stylesheet" href="~/css/create-article.css">
+
+<h2>Create Article</h2>
+
+@using (Html.BeginForm("CreateArticle", "Articles", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.LabelFor(model => model.Name)
+        @Html.EditorFor(model => model.Name)
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Category)
+        @Html.EditorFor(model => model.Category)
+        @Html.ValidationMessageFor(model => model.Category)
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Description)
+        @Html.EditorFor(model => model.Description)
+        @Html.ValidationMessageFor(model => model.Description)
+    </div>
+    
+    <div>
+        @Html.LabelFor(model => model.ExpirationDate)
+        @Html.EditorFor(model => model.ExpirationDate)
+        @Html.ValidationMessageFor(model => model.ExpirationDate)
+    </div>
+
+    <input type="submit" value="Create" />
+}

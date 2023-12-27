@@ -1,0 +1,27 @@
+body {
+    font-family: "Yu Gothic UI Semibold", serif;
+}
+
+.bold-text {
+    font-weight: bold; /* thickness */
+}
+
+.light-text {
+    font-weight: 300;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.spaced-text {
+    line-height: 3; /* space before and after the text*/
+}
+
+.condensed-text {
+    letter-spacing: -1px;
+}

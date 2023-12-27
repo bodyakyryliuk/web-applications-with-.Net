@@ -1,0 +1,37 @@
+@model lab8.Models.QuadraticEquationResult
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quadratic Equation Solver</title>
+</head>
+
+@* <body> *@
+@*    <div class="@ViewBag.CssClassName"> *@
+@*         <h1>Quadratic Equation Solver</h1> *@
+@*         <div> *@
+@*             @if (ViewBag.Message == "Two roots.") *@
+@*             { *@
+@*                 <p>Root 1: @ViewBag.Root1</p> *@
+@*                 <p>Root 2: @ViewBag.Root2</p> *@
+@*             } *@
+@*             else if (ViewBag.Message == "One root.") *@
+@*             { *@
+@*                 <p>Root: @ViewBag.Root1</p> *@
+@*             } *@
+@*             <p>Message: @ViewBag.Message</p> *@
+@*         </div> *@
+@*     </div> *@
+@* </body> *@
+
+<body>
+   <div class="@ViewBag.className">
+        <h1>Quadratic Equation Solver</h1>
+        <div>
+            <p>Message:</p>
+            @Html.Raw(ViewBag.Message)
+        </div>
+    </div>
+</body>
+
+</html>

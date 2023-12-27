@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.even {
+    background-color: #cfffcf;
+}
+
+.odd {
+    background-color: #ffcfcf;
+}
+
+.rem0{
+    background-color: #cfffcf;
+}
+
+.rem1{
+    background-color: #ffcfcf;
+
+}
+
+.rem2{
+    background-color: cornflowerblue;
+}
+#warning {
+    color: red;
+}

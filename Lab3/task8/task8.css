@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+}
+
+.table th, .table td {
+    padding: 10px 20px; /* Padding for table cells */
+    border-bottom: 2px solid #ddd; /* Border for each cell */
+    text-align: center;
+}
+
+.table th {
+    background-color: #3498db; /* Main row background color */
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}

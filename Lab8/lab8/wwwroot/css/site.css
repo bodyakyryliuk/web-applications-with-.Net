@@ -1,0 +1,20 @@
+/* wwwroot/css/site.css */
+.root-two {
+  color: green;
+  font-family: 'Arial', sans-serif;
+}
+
+.root-one {
+  color: blue;
+  font-family: 'Times New Roman', serif;
+}
+
+.root-none {
+  color: red;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.root-identity {
+  color: purple;
+  font-family: 'Courier New', monospace;
+}
